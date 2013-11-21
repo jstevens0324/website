@@ -4899,8 +4899,8 @@ textarea.input-group-sm > .input-group-btn > .btn {
 }
 
 .navbar-default {
-    /*background-color: #03A9CB;*/
-    background: url(http://localhost/Driven/images/header-top-bkg.gif) repeat;
+    border-bottom: 5px solid #ff4c47;
+    background-color: #313131;
 }
 
 .navbar-default .navbar-brand {
