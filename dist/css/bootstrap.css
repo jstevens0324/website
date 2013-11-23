@@ -2063,7 +2063,7 @@ input[type="search"] {
 input[type="radio"],
 input[type="checkbox"] {
     margin: 4px 0 0;
-    margin-top: 1px    \9;
+    margin-top: 1px \9;
     /* IE8-9 */
 
     line-height: normal;
@@ -6762,7 +6762,7 @@ button.close {
     margin: 1px;
     text-indent: -999px;
     cursor: pointer;
-    background-color: #000    \9;
+    background-color: #000 \9;
     background-color: rgba(0, 0, 0, 0);
     border: 1px solid #ffffff;
     border-radius: 10px;
@@ -6869,7 +6869,7 @@ button.close {
 }
 
 @-ms-viewport {
-  width: device-width;
+    width: device-width;
 }
 
 .visible-xs,
@@ -7381,7 +7381,7 @@ td.visible-print {
 .footer_top {
     padding-top: 5px;
     border-bottom: 5px solid #ff4c47;
-    background: url(http://localhost/Driven/images/header-top-bkg.gif) repeat;
+    background: url(/dist/images/header-top-bkg.gif) repeat;
     float: left;
     width: 100%;
     height: auto;
@@ -7533,22 +7533,22 @@ ul#menu-main-menu-1 {
 }
 
 .the-loog form input#submit {
-    background: url(/images/submit-email.png) no-repeat;
+    background: url(/dist/images/social-sprite.png) no-repeat;
 }
 
 a.roll-fb {
-    background: url(http://localhost/Driven/images/social-sprite.png) no-repeat -14px -8px;
+    background: url(/dist/images/social-sprite.png) no-repeat -14px -8px;
     width: 18px;
     height: 33px;
     display: block;
 }
 
 a.roll-fb:hover {
-    background: url(http://localhost/Driven/images/social-sprite.png) no-repeat -14px -55px;
+    background: url(/dist/images/social-sprite.png) no-repeat -14px -55px;
 }
 
 a.roll-tw {
-    background: url(http://localhost/Driven/images/social-sprite.png) no-repeat -45px -11px;
+    background: url(/dist/images/social-sprite.png) no-repeat -45px -11px;
     width: 40px;
     height: 27px;
     display: block;
@@ -7556,11 +7556,11 @@ a.roll-tw {
 }
 
 a.roll-tw:hover {
-    background: url(http://localhost/Driven/images/social-sprite.png) no-repeat -45px -55px;
+    background: url(/dist/images/social-sprite.png) no-repeat -45px -55px;
 }
 
 a.roll-rs {
-    background: url(http://localhost/Driven/images/social-sprite.png) no-repeat -96px -8px;
+    background: url(/dist/images/social-sprite.png) no-repeat -96px -8px;
     width: 26px;
     height: 27px;
     display: block;
@@ -7568,11 +7568,11 @@ a.roll-rs {
 }
 
 a.roll-rs:hover {
-    background: url(http://localhost/Driven/images/social-sprite.png) no-repeat -96px -55px;
+    background: url(/dist/images/social-sprite.png) no-repeat -96px -55px;
 }
 
 a.roll-in {
-    background: url(http://localhost/Driven/images/social-sprite.png) no-repeat -133px -5px;
+    background: url(/dist/images/social-sprite.png) no-repeat -133px -5px;
     width: 27px;
     height: 29px;
     display: block;
@@ -7580,11 +7580,11 @@ a.roll-in {
 }
 
 a.roll-in:hover {
-    background: url(http://localhost/Driven/images/social-sprite.png) no-repeat -133px -52px;
+    background: url(/dist/images/social-sprite.png) no-repeat -133px -52px;
 }
 
 a.roll-be {
-    background: url(http://localhost/Driven/images/social-sprite.png) no-repeat -174px -8px;
+    background: url(/dist/images/social-sprite.png) no-repeat -174px -8px;
     width: 41px;
     height: 26px;
     display: block;
@@ -7593,7 +7593,7 @@ a.roll-be {
 }
 
 a.roll-be:hover {
-    background: url(http://localhost/Driven/images/social-sprite.png) no-repeat -174px -55px;
+    background: url(/dist/images/social-sprite.png) no-repeat -174px -55px;
 }
 
 .footer_bot {
@@ -7637,10 +7637,26 @@ a.roll-be:hover {
     width: 100%;
 }
 
-.container_a{
+.container_a {
     width: 100%;
     max-width: 960px;
     position: relative;
     margin: 0 auto;
     text-align: left;
+}
+
+#we-are-wdg {
+    background: #ff4c47;
+    color: #fff;
+    font-size: 18px;
+    padding: 50px 0;
+}
+
+.aligncenter {
+    text-align: center;
+    margin: 5px auto;
+}
+
+.nomargin {
+    margin: 0 !important;
 }
